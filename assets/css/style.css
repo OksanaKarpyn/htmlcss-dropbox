@@ -27,11 +27,29 @@ a{
 .btn{
 background-color: blue;
 color: #fff;
-padding: 5px 15px;
+padding: 10px 15px;
 }
-
+.btn:hover{
+    background-color: rgb(42, 93, 165);
+}
 .list{}
 
+/* main-utility */
+.br{
+  font-weight: bold;
+  display: block;
+}
+
+.space{ 
+    padding: 20px 0;
+}
+.icon{
+    padding: 10px 0;
+}
+
+i{
+    margin-right: 10px;
+}
 
 /* nav */
 
@@ -91,11 +109,17 @@ nav{
 .body-test{
     font-size: 14px;
     margin-bottom: 20px;
+    line-height: 20px;
 }
 .body-btn{
+    margin: 40px 0;
+}
+.body-btn a{
+    display: inline-block;
+
 }
 .body-span{
-    padding: 20px 0;
+    padding: 30px 0;
     word-spacing: 2px;
 }
 .body-icon{
@@ -105,6 +129,69 @@ nav{
     font-weight: bold;
 }
 .header-img{
-    transform: translateY(50px) scale(1.2);
+    transform: translateY(50px) scaleY(1.2);
+    /* transform: translateX(0px) scale(1); */
+
     margin-left: 20px;
 }
+/* main */
+.main{
+    margin-top: 100px;
+}
+.container-main{
+    width: 90%;
+    margin: auto;
+}
+.container-columns{}
+.column-title{
+    font-size: 1.5rem;
+}
+.column-input{
+   display: flex;
+   
+}
+.input-cheked{
+    margin-right: 30px;
+}
+.input{}
+.columns-row{
+    width: calc(100% /3 -20px);
+}
+.columns-column{
+    border: 1px solid black;
+}
+.column1{}
+.column-label{
+    border-bottom: 1px solid black;
+    text-align: center;
+    padding: 15px 0;
+
+}
+.column-item{
+    padding: 20px 30px;
+}
+.column-title h4{
+    padding-bottom:20px;
+    letter-spacing: 2px;
+}
+.column-infoIcone{}
+.column-btn a {
+display: block;
+}
+.underline{
+    text-decoration: underline;
+    padding-left: 0;
+}
+.line{
+    width: 80px;
+    border-bottom: 1px solid darkgrey;
+}
+.column-list ul  li{
+   padding: 10px 0;
+   display: block;
+}
+.column-list i {
+    color: blue;
+}
+.column-subtitle{}
+
