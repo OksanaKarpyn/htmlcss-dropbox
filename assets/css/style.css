@@ -7,33 +7,104 @@
 
 li{
     list-style: none;
+    display: inline-block;
 }
 
 a{
     text-decoration: none;
+    padding: 0px 20px;
+    word-spacing: 2px;
+
 }
 
 .img{
     display: block;
     width: 100%;
 }
-/* utility */
-.btn{
 
+/* utility */
+
+.btn{
+background-color: blue;
+color: #fff;
+padding: 5px 15px;
 }
 
 .list{}
 
 
-/* header */
-.header{}
-.header-row{}
+/* nav */
 
-.header-left{}
-.img-logo{}
-.list-left{}
+nav{
 
-.header-right{}
+    padding: 20px 10px;
+}
+.nav-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-left{
+    display: flex;
+}
+.img-logo{
+    max-width: 100px;
+}
+.list-left a {
+
+    
+}
+
+.list-left a:hover, .list-right a:hover{
+      width: 100%;
+      border-bottom: 2px solid rgb(118, 169, 194);
+}
+
+.nav-right{}
 .list-right{}
 
 
+/* header */
+.header{
+    background-color: rgb(118, 169, 194);
+     padding-top: 30px;
+}
+.container{
+    width:60% ;
+    margin: auto;
+   
+}
+.header-title h1{
+    text-align: start;
+    font-size: 4rem;
+    word-spacing: 4px;
+}
+.header-title h1{}
+.header-row{
+    display: flex;
+    justify-content: space-between;
+}
+.header-body{
+    position: relative;
+    padding: 20px 20px 20px 0px;
+}
+.body-test{
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.body-btn{
+}
+.body-span{
+    padding: 20px 0;
+    word-spacing: 2px;
+}
+.body-icon{
+    position: absolute;
+    bottom: 10px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.header-img{
+    transform: translateY(50px) scale(1.2);
+    margin-left: 20px;
+}
