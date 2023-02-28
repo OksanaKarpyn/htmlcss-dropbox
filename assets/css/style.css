@@ -379,6 +379,7 @@ flex-wrap: wrap;
 }
 .square-img img{
     /* color: #fff; */
+    filter: invert(100%);
 }
 .green{
     background-color: #a2d39b;
