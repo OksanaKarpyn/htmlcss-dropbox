@@ -263,7 +263,11 @@ nav {
     margin-top: 40px;
 }
 
-.column-footer-button {}
+.column-footer-button {
+    padding-top: 20px;
+    /* display: inline-block; */
+    /* width: 100%; */
+}
 
 /* container-partner */
 .container-partner {
@@ -355,8 +359,11 @@ nav {
 display: flex;
 }
 .square {
-    min-height: 500px;
+    width: calc(100% / 3);
+    height: calc(100vw / 3);
+    /* min-height: 500px; */
     width: 33.333%;
+    /* aspect-ratio: 1; */
     /* border: 1px solid black; */
 }
 /* square1 */
@@ -398,6 +405,7 @@ flex-wrap: wrap;
 
 /* square2 */
 .square2 {
+    overflow-y:hidden ;
     background-color: #f5f5f5;
 }
 
