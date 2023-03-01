@@ -384,11 +384,7 @@ nav {
 }
 .square-img img{
     /* color: #fff; */
-    /* filter: invert(100%); */
-}
-.square-img svg{
-
-    fill: #fff;
+    filter: invert(100%);
 }
 .green{
     background-color: #a2d39b;
